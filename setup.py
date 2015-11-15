@@ -9,14 +9,14 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='hmakecoffee', #Название пакета
-    version='1.0.0', #версия
+    version='1.0.1', #версия
     packages=find_packages(), # входящие в состав модуля пакеты - отдаем на откуп хелпера find_packages
     include_package_data=True,
     license='MTI License', #Указываем выбранную лицензию
     description='test funny python packet', #краткое описание пакета
     long_description=README, #полное описание пакета - копируем, из файла README.md
     url='https://github.com/harlov/hmakecoffee', # домашняя страница пакета - пока оставим адрес репозитория.
-    download_url = 'https://github.com/harlov/hmakecoffee/archive/v1.0.0.tar.gz', # адрес для скачивания пакета
+    download_url = 'https://github.com/harlov/hmakecoffee/archive/v1.0.1.tar.gz', # адрес для скачивания пакета
     author='Nikita Harlov', 
     author_email='nikita@harlov.com',
     classifiers=[ 
