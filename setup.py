@@ -16,7 +16,7 @@ setup(
     description='test funny python packet', #краткое описание пакета
     long_description=README, #полное описание пакета - копируем, из файла README.md
     url='https://github.com/harlov/hmakecoffee', # домашняя страница пакета - пока оставим адрес репозитория.
-    download_url = 'https://github.com/harlov/hmakecoffee/tarball/1.0.0', # адрес для скачивания пакета
+    download_url = 'https://github.com/harlov/hmakecoffee/archive/v1.0.0.tar.gz', # адрес для скачивания пакета
     author='Nikita Harlov', 
     author_email='nikita@harlov.com',
     classifiers=[ 
